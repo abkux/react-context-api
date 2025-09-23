@@ -1,0 +1,69 @@
+/* Basic global styles */
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  background: #f6f7fb;
+  color: #0f172a;
+}
+
+#root {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 24px;
+}
+
+/* Headings and layout */
+h1 {
+  font-size: 1.25rem;
+  margin: 0 0 8px;
+}
+
+/* Simple card look for direct children blocks */
+#root > div > div {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+}
+
+/* Buttons */
+button {
+  appearance: none;
+  border: 1px solid #1d4ed8;
+  background: #2563eb;
+  color: #ffffff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+/* Prices and totals */
+p {
+  margin: 6px 0;
+}
+
+/* Cart list items */
+li {
+  list-style: none;
+  padding: 6px 8px;
+  margin: 4px 0;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
