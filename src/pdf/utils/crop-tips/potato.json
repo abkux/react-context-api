@@ -1,0 +1,317 @@
+{
+  "cropName": "potato",
+  "insights": {
+    "english": {
+      "pH": "critical for tuber development and nutrient availability, especially P and micronutrients.",
+      "ec": "High EC can impair tuber formation, cause salt stress, reduce yield and affect tuber quality.",
+      "oc": "Enhances microbial activity, water retention, and improves tuber size and skin quality; supports healthy root zone.",
+      "nitrogen": "Drives early vegetative growth and canopy development; excess N delays tuberization and leads to poor keeping quality.",
+      "phosphorus": "Promotes root and stolon development, enhances early crop vigor, and aids in uniform tuber setting.",
+      "potassium": "Key for tuber bulking, size, skin smoothness, and storability; improves disease resistance and water use efficiency.",
+      "sulphur": "Needed for protein and vitamin synthesis; improves tuber quality and enhances nitrogen use efficiency.",
+      "magnesium": "Part of chlorophyll; promotes photosynthesis and starch production in tubers.",
+      "calcium": "Critical for tuber firmness, cell wall stability, and internal quality (prevents hollow heart).",
+      "zinc": "Influences auxin metabolism and enzyme activity; improves stolon growth and overall plant vigor.",
+      "iron": "Essential for chlorophyll synthesis and energy metabolism; deficiency results in pale young leaves.",
+      "copper": "Involved in lignin formation, enzyme activity, and protein metabolism; supports disease resistance.",
+      "boron": "Important for cell wall development, tuber quality, and prevents internal browning and cracking.",
+      "cn_ratio": "Governs decomposition of organic matter and nutrient mineralization; affects tuber initiation and soil life.",
+      "cec_tendency": "High CEC improves nutrient-holding capacity, critical for supporting nutrient-hungry potato crop.",
+      "ca_mg_ratio": "Balanced ratio supports skin quality and nutrient uptake; imbalance affects tuber integrity.",
+      "k_mg_ratio": "Too much K can suppress Mg uptake; proper balance improves starch accumulation and tuber yield."
+    },
+    "hindi": {
+      "pH": "कंद विकास और पोषक तत्वों की उपलब्धता, विशेष रूप से फॉस्फोरस (P) और सूक्ष्म पोषक तत्वों के लिए अत्यंत आवश्यक।",
+      "ec": "उच्च EC से नमक तनाव और कंद की गुणवत्ता प्रभावित होती है।",
+      "oc": "सूक्ष्मजीव और जड़ों की सेहत के लिए सहायक।",
+      "nitrogen": "प्रारंभिक विकास में सहायक; अधिकता से कंद देर से बनते हैं।",
+      "phosphorus": "जड़ों और स्टोलोन के विकास में सहायक।",
+      "potassium": "कंद का आकार, छिलका और भंडारण क्षमता बढ़ाता है।",
+      "sulphur": "प्रोटीन और विटामिन संश्लेषण में सहायक।",
+      "magnesium": "क्लोरोफिल और स्टार्च निर्माण में सहायक।",
+      "calcium": "कंद की मजबूती और आंतरिक गुणवत्ता में सहायक।",
+      "zinc": "स्टोलोन वृद्धि और पौधों की शक्ति में सहायक।",
+      "iron": "क्लोरोफिल और ऊर्जा चयापचय में सहायक।",
+      "copper": "लिग्निन और रोग प्रतिरोध में सहायक।",
+      "boron": "कोशिका मजबूती, कंद गुणवत्ता और दरार रोकने में सहायक।",
+      "cn_ratio": "कंद आरंभ और सूक्ष्मजीव गतिविधि में सहायक।",
+      "cec_tendency": "पोषक तत्वों की उच्च मांग को पूरा करता है।",
+      "ca_mg_ratio": "त्वचा गुणवत्ता और पोषण अवशोषण में सहायक।",
+      "k_mg_ratio": "संतुलन स्टार्च और कंद उत्पादन में सहायक।"
+    }
+  },
+  "tips": {
+    "english": [
+      {
+        "stageOrder": 1,
+        "stageName": "Before Planting",
+        "practices": [
+          {
+            "practiceOrder": 1,
+            "practice": "Soil Testing",
+            "why": "Identifies nutrient deficiencies; potatoes need well-balanced nutrition for tuber formation."
+          },
+          {
+            "practiceOrder": 2,
+            "practice": "Seed Treatment (Fungicide + Insecticide + Biofertilizer)",
+            "why": "Protects against seed-borne diseases (e.g., black scurf) and soil-borne pests; enhances early root health."
+          },
+          {
+            "practiceOrder": 3,
+            "practice": "Field Preparation (Deep Ploughing + Fine Tilth + Raised Beds/Ridges)",
+            "why": "Ensures good aeration, drainage, and uniform tuber development; prevents waterlogging which can rot tubers."
+          },
+          {
+            "practiceOrder": 4,
+            "practice": "Apply FYM/Compost + Gypsum (if soil is compacted)",
+            "why": "Improves soil structure and calcium availability, reducing tuber defects like hollow heart or cracking."
+          }
+        ]
+      },
+      {
+        "stageOrder": 2,
+        "stageName": "At Planting",
+        "practices": [
+          {
+            "practiceOrder": 1,
+            "practice": "Apply Basal Dose (NPK + S + Zn + B)",
+            "why": "Supports early shoot growth, root establishment, and proper stolon/tuber initiation."
+          },
+          {
+            "practiceOrder": 2,
+            "practice": "Proper Spacing (20–25 cm between plants, 60 cm between rows)",
+            "why": "Ensures uniform tuber size, good canopy development, and better light interception."
+          }
+        ]
+      },
+      {
+        "stageOrder": 3,
+        "stageName": "Vegetative Growth (15–30 DAS)",
+        "practices": [
+          {
+            "practiceOrder": 1,
+            "practice": "First Urea Top-Dress + Irrigation",
+            "why": "Supports shoot and leaf development; moisture is critical for stolon formation and nutrient uptake."
+          },
+          {
+            "practiceOrder": 2,
+            "practice": "Weeding and Light Earthing Up",
+            "why": "Reduces competition and supports early tuber bulking."
+          }
+        ]
+      },
+      {
+        "stageOrder": 4,
+        "stageName": "Tuber Initiation (30–45 DAS)",
+        "practices": [
+          {
+            "practiceOrder": 1,
+            "practice": "Second Urea Split + Potash + Micronutrients (B + Zn)",
+            "why": "Potash improves tuber size, skin quality, and shelf life; Boron supports uniform tuber formation."
+          },
+          {
+            "practiceOrder": 2,
+            "practice": "Maintain Moisture Uniformly",
+            "why": "Critical stage—moisture stress or waterlogging can severely impact tuber number and quality."
+          }
+        ]
+      },
+      {
+        "stageOrder": 5,
+        "stageName": "Tuber Bulking (45–70 DAS)",
+        "practices": [
+          {
+            "practiceOrder": 1,
+            "practice": "Optional Urea Split (if foliage is weak) + K Fertilizer",
+            "why": "Supports continued tuber growth and sugar accumulation in tubers."
+          },
+          {
+            "practiceOrder": 2,
+            "practice": "Avoid Excess Nitrogen",
+            "why": "Too much N causes excessive foliage and poor tuber development."
+          },
+          {
+            "practiceOrder": 3,
+            "practice": "Second Earthing Up (optional)",
+            "why": "Prevents tuber greening and supports better bulking."
+          }
+        ]
+      },
+      {
+        "stageOrder": 6,
+        "stageName": "Maturation (70–90 DAS)",
+        "practices": [
+          {
+            "practiceOrder": 1,
+            "practice": "Stop Nitrogen Application + Controlled Irrigation",
+            "why": "Allows plants to mature and tubers to harden; reduces chance of rotting."
+          },
+          {
+            "practiceOrder": 2,
+            "practice": "Irrigation withdrawal 10–15 days before harvest",
+            "why": "Helps in skin setting and makes harvest easier."
+          }
+        ]
+      },
+      {
+        "stageOrder": 7,
+        "stageName": "Post Harvest",
+        "practices": [
+          {
+            "practiceOrder": 1,
+            "practice": "Incorporate crop residues + Grow leguminous green manure",
+            "why": "Restores soil organic matter, improves soil structure, and reduces disease carryover."
+          }
+        ]
+      }
+    ],
+    "hindi": [
+      {
+        "stageOrder": 1,
+        "stageName": "रोपाई से पहले",
+        "practices": [
+          {
+            "practiceOrder": 1,
+            "practice": "मृदा परीक्षण (Soil Testing)",
+            "why": "NPK और सूक्ष्म पोषक तत्वों (विशेषकर Zn, B, S) की कमी पहचानने में मदद करता है; संतुलित पोषण से कंद विकास बेहतर होता है।"
+          },
+          {
+            "practiceOrder": 2,
+            "practice": "बीज उपचार (फफूंदनाशक + कीटनाशक + जैव उर्वरक)",
+            "why": "बीजजनित रोगों (जैसे ब्लैक स्कर्फ) और मिट्टी में मौजूद कीटों से सुरक्षा देता है; जड़ वृद्धि को भी बढ़ावा देता है।"
+          },
+          {
+            "practiceOrder": 3,
+            "practice": "खेत की तैयारी (गहरी जुताई + महीन मिट्टी + मेड़/बेड बनाना)",
+            "why": "उचित वायु संचरण, जल निकास और समान कंद विकास सुनिश्चित करता है; जलभराव से कंद सड़ सकते हैं।"
+          },
+          {
+            "practiceOrder": 4,
+            "practice": "गोबर की खाद/कम्पोस्ट + जिप्सम (यदि मिट्टी कठोर हो)",
+            "why": "मिट्टी की संरचना और कैल्शियम की उपलब्धता सुधारता है; इससे कंद टूटना या खोखलापन कम होता है।"
+          }
+        ]
+      },
+      {
+        "stageOrder": 2,
+        "stageName": "रोपाई के समय",
+        "practices": [
+          {
+            "practiceOrder": 1,
+            "practice": "बेसल डोज का प्रयोग (NPK + S + Zn + B)",
+            "why": "प्रारंभिक अंकुरण, जड़ विकास और स्टोलोन/कंद की शुरुआत के लिए आवश्यक है।"
+          },
+          {
+            "practiceOrder": 2,
+            "practice": "सही दूरी बनाएँ (पौधों में 20–25 सेमी, कतारों में 60 सेमी)",
+            "why": "समान कंद आकार, अच्छा पत्तियों का विकास और बेहतर प्रकाश संचरण सुनिश्चित करता है।"
+          }
+        ]
+      },
+      {
+        "stageOrder": 3,
+        "stageName": "शुरुआती वृद्धि (15–30 दिन)",
+        "practices": [
+          {
+            "practiceOrder": 1,
+            "practice": "पहली यूरिया खुराक + सिंचाई",
+            "why": "पत्तियों और तनों की वृद्धि में सहायता करता है; नमी स्टोलोन बनने और पोषक तत्वों के अवशोषण के लिए जरूरी है।"
+          },
+          {
+            "practiceOrder": 2,
+            "practice": "निराई और हल्की मिट्टी चढ़ाना (Earthing Up)",
+            "why": "खरपतवार नियंत्रण और प्रारंभिक कंद विकास को समर्थन देता है।"
+          }
+        ]
+      },
+      {
+        "stageOrder": 4,
+        "stageName": "कंद बनना (30–45 दिन)",
+        "practices": [
+          {
+            "practiceOrder": 1,
+            "practice": "दूसरी यूरिया खुराक + पोटाश + सूक्ष्म पोषक (B + Zn)",
+            "why": "पोटाश कंद का आकार, त्वचा की गुणवत्ता और भंडारण क्षमता बढ़ाता है; बोरॉन से एकसमान कंद बनते हैं।"
+          },
+          {
+            "practiceOrder": 2,
+            "practice": "समान रूप से नमी बनाए रखें",
+            "why": "यह एक महत्वपूर्ण चरण है — नमी की कमी या जलभराव से कंद की संख्या और गुणवत्ता दोनों पर बुरा प्रभाव पड़ता है।"
+          }
+        ]
+      },
+      {
+        "stageOrder": 5,
+        "stageName": "कंद वृद्धि (45–70 दिन)",
+        "practices": [
+          {
+            "practiceOrder": 1,
+            "practice": "यदि आवश्यक हो तो तीसरी यूरिया खुराक + पोटाश",
+            "why": "कंद के आकार और उसमें शर्करा संचयन में मदद करता है।"
+          },
+          {
+            "practiceOrder": 2,
+            "practice": "अत्यधिक नाइट्रोजन से बचें",
+            "why": "अत्यधिक नाइट्रोजन से पत्तियाँ अधिक बढ़ती हैं, लेकिन कंद विकास खराब हो जाता है।"
+          },
+          {
+            "practiceOrder": 3,
+            "practice": "दूसरी बार मिट्टी चढ़ाना (यदि आवश्यक हो)",
+            "why": "कंदों के हरे होने से बचाता है और बेहतर वृद्धि को समर्थन देता है।"
+          }
+        ]
+      },
+      {
+        "stageOrder": 6,
+        "stageName": "परिपक्वता (70–90 दिन)",
+        "practices": [
+          {
+            "practiceOrder": 1,
+            "practice": "नाइट्रोजन देना बंद करें + सिंचाई नियंत्रित करें",
+            "why": "पौधे के पकने और कंदों के सख्त होने में मदद करता है; सड़न की संभावना को भी कम करता है।"
+          },
+          {
+            "practiceOrder": 2,
+            "practice": "कटाई से 10–15 दिन पहले सिंचाई बंद करें",
+            "why": "कंद की त्वचा को मजबूत करता है और कटाई को आसान बनाता है।"
+          }
+        ]
+      },
+      {
+        "stageOrder": 7,
+        "stageName": "कटाई के बाद",
+        "practices": [
+          {
+            "practiceOrder": 1,
+            "practice": "फसल अवशेषों को मिलाना + दलहनी हरी खाद बोना",
+            "why": "जैविक पदार्थ बहाल करता है, मिट्टी की संरचना में सुधार करता है और रोगों के चक्र को तोड़ता है।"
+          }
+        ]
+      }
+    ]
+  },
+  "parameters": [
+    "pH", "ec", "oc", "nitrogen", "phosphorus", "potassium", "sulphur", 
+    "magnesium", "calcium", "zinc", "iron", "copper", "boron", 
+    "cn_ratio", "cec_tendency", "ca_mg_ratio", "k_mg_ratio"
+  ],
+  "parameterNames": {
+    "pH": "pH",
+    "ec": "EC (विद्युत चालकता)",
+    "oc": "OC (जैविक कार्बन)",
+    "nitrogen": "नाइट्रोजन (N)",
+    "phosphorus": "फॉस्फोरस (P)",
+    "potassium": "पोटैशियम (K)",
+    "sulphur": "सल्फर (S)",
+    "magnesium": "मैग्नीशियम (Mg)",
+    "calcium": "कैल्शियम (Ca)",
+    "zinc": "जिंक (Zn)",
+    "iron": "लोहा (Fe)",
+    "copper": "कॉपर (Cu)",
+    "boron": "बोरॉन (B)",
+    "cn_ratio": "C:N अनुपात",
+    "cec_tendency": "CEC प्रवृत्ति",
+    "ca_mg_ratio": "Ca:Mg अनुपात",
+    "k_mg_ratio": "K:Mg अनुपात"
+  }
+} 

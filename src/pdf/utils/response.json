@@ -1,0 +1,368 @@
+{
+    "report": {
+        "name": "ajit pratap S/o devendra singh",
+        "mobile_no": "7906487934",
+        "address": "Sirsaganj",
+        "pincode": "283151",
+        "city": "Firozabad",
+        "state": "Uttar Pradesh",
+        "village": "plot 1",
+        "farm_name": "Ajit pratap plot 2",
+        "farm_size": "1.00",
+        "farm_size_unit": "Acres",
+        "previous_crop": "cumin",
+        "next_crop": "wheat",
+        "sample_code": "S0006195",
+        "sample_type": "SOIL",
+        "entity_name": "Fasal Amrit",
+        "entity_mobile": "9414163180",
+        "entity_email": "ritu.panwar@efpolymer.com",
+        "entity_logo": "",
+        "report_id": "R0005893",
+        "user_id": "U0004747",
+        "booking_id": "TB006190",
+        "sample_id": "S0006195",
+        "ph": "7.4598",
+        "ec": "0.354",
+        "oc": "0.41",
+        "nitrogen": "1.28",
+        "phosphorus": "118.45",
+        "potassium": "359.93",
+        "manganese": "0",
+        "aluminum": "",
+        "chlorine": "",
+        "molybdenum": "",
+        "nickle": "",
+        "microbial_count": "",
+        "microbial_remarks": "",
+        "collection_date": "2025-10-06T06:20:37.795Z",
+        "device_id": "SA0014",
+        "remarks": "-",
+        "report_status": "S",
+        "status": "A",
+        "created_at": "2025-10-06T06:20:37.796Z",
+        "updated_at": "2025-10-06T06:20:37.796Z",
+        "nitrate": "0",
+        "ammonia": "467.43",
+        "source": "DEVICE",
+        "turnaround_time": {
+            "days": 2,
+            "hours": 1,
+            "minutes": 10,
+            "seconds": 6,
+            "milliseconds": 781.004
+        },
+        "is_locked": false,
+        "is_follow_up_1_active": true,
+        "is_follow_up_2_active": false,
+        "is_follow_up_3_active": false
+    },
+    "recommData": {
+        "recommendation": {
+            "version": 2,
+            "crop": "wheat",
+            "recommendations": [
+                {
+                    "order": 1,
+                    "orderName": {
+                        "english": "10-15 Days Before Sowing",
+                        "hindi": "बुवाई से 10-15 दिन पहले",
+                        "telugu": "బీజా చేయడానికి 10-15 రోజుల ముందు",
+                        "marathi": "बुवाईपूर्वी 10-15 दिवस",
+                        "punjabi": "ਬੀਜਾਈ ਤੋਂ ਪਹਿਲਾਂ 10-15 ਦਿਨ"
+                    },
+                    "prescription": [
+                        {
+                            "input": {
+                                "english": "Farm Yard Manure",
+                                "hindi": "गोबर की खाद",
+                                "telugu": "గోబర్ ఖాదు",
+                                "punjabi": "ਗੋਬਰ ਦੀ ਖਾਦ",
+                                "marathi": "गोबराची खाड"
+                            },
+                            "perSessionDose": "1250",
+                            "unit": {
+                                "english": "kg/acre",
+                                "hindi": "किलोग्राम/एकड़",
+                                "telugu": "కిలోగ్రాములు/ఎకర",
+                                "punjabi": "ਕਿਲੋਗਰਾਮ/ਏਕੜ",
+                                "marathi": "किलोग्राम/एकर"
+                            },
+                            "method": {
+                                "english": "Directly in the soil",
+                                "hindi": "सीधे मिट्टी में डालें",
+                                "telugu": "నేపథ్యంలో ప్రత్యక్షంగా",
+                                "punjabi": "ਸੀਧੇ ਮਿੱਟੀ ਵਿੱਚ ਡਾਲੋ",
+                                "marathi": "थेट मातीत"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "order": 2,
+                    "orderName": {
+                        "english": "At the time of Sowing( Day 0)",
+                        "hindi": "बुवाई के समय (दिन 0)",
+                        "telugu": "బీజా చేయడానికి (దినం 0)",
+                        "punjabi": "ਬੀਜਾਈ ਦੇ ਸਮੇਂ (ਦਿਨ 0)",
+                        "marathi": "पेरणीच्या वेळी (दिवस 0)"
+                    },
+                    "prescription": [
+                        {
+                            "input": {
+                                "english": "DAP",
+                                "hindi": "डी.ए.पी.",
+                                "telugu": "డి.ఎ.పి.",
+                                "punjabi": "ਡੀ.ਐ.ਪੀ.",
+                                "marathi": "डी.ए.पी."
+                            },
+                            "perSessionDose": "37",
+                            "unit": {
+                                "english": "kg/acre",
+                                "hindi": "किलोग्राम/एकड़",
+                                "telugu": "కిలోగ్రాములు/ఎకర",
+                                "punjabi": "ਕਿਲੋਗਰਾਮ/ਏਕੜ",
+                                "marathi": "किलोग्राम/एकर"
+                            },
+                            "method": {
+                                "english": "Directly in the soil",
+                                "hindi": "सीधे मिट्टी में डालें",
+                                "telugu": "నేపథ్యంలో ప్రత్యక్షంగా",
+                                "punjabi": "ਸੀਧੇ ਮਿੱਟੀ ਵਿੱਚ ਡਾਲੋ",
+                                "marathi": "थेट मातीत"
+                            }
+                        },
+                        {
+                            "input": {
+                                "english": "MOP",
+                                "hindi": "एम.ओ.पी.",
+                                "telugu": "ఎం.ఓ.పి.",
+                                "punjabi": "ਐਮ.ਓ.ਪੀ.",
+                                "marathi": "एम.ओ.पी."
+                            },
+                            "perSessionDose": "10",
+                            "unit": {
+                                "english": "kg/acre",
+                                "hindi": "किलोग्राम/एकड़",
+                                "telugu": "కిలోగ్రాములు/ఎకర",
+                                "punjabi": "ਕਿਲੋਗਰਾਮ/ਏਕੜ",
+                                "marathi": "किलोग्राम/एकर"
+                            },
+                            "method": {
+                                "english": "Directly in the soil",
+                                "hindi": "सीधे मिट्टी में डालें",
+                                "telugu": "నేపథ్యంలో ప్రత్యక్షంగా",
+                                "punjabi": "ਸੀਧੇ ਮਿੱਟੀ ਵਿੱਚ ਡਾਲੋ",
+                                "marathi": "थेट मातीत"
+                            }
+                        },
+                        {
+                            "input": {
+                                "english": "Urea",
+                                "hindi": "यूरिया",
+                                "telugu": "యూరియా",
+                                "punjabi": "ਯੂਰੀਆ",
+                                "marathi": "युरिया"
+                            },
+                            "perSessionDose": 75,
+                            "unit": {
+                                "english": "kg/acre",
+                                "hindi": "किलोग्राम/एकड़",
+                                "telugu": "కిలోగ్రాములు/ఎకర",
+                                "punjabi": "ਕਿਲੋਗਰਾਮ/ਏਕੜ",
+                                "marathi": "किलोग्राम/एकर"
+                            },
+                            "method": {
+                                "english": "Directly in the soil",
+                                "hindi": "सीधे मिट्टी में डालें",
+                                "telugu": "నేపథ్యంలో ప్రత్యక్షంగా",
+                                "punjabi": "ਸੀਧੇ ਮਿੱਟੀ ਵਿੱਚ ਡਾਲੋ",
+                                "marathi": "थेट मातीत"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "order": 3,
+                    "orderName": {
+                        "english": "At Tillering Stage(20-30 DAS)",
+                        "hindi": "कल्ला निकलने की अवस्था पर (बुवाई के 20-30 दिन बाद)",
+                        "telugu": "టిలెరింగ్ స్టేజ్ (20-30 రోజులు)",
+                        "punjabi": "ਟਿਲਰਿੰਗ ਸਟੇਜ (20-30 ਦਿਨ)",
+                        "marathi": "टिलरिंग स्टेजवर (20-30 DAS)"
+                    },
+                    "prescription": [
+                        {
+                            "input": {
+                                "english": "Urea",
+                                "hindi": "यूरिया",
+                                "telugu": "యూరియా",
+                                "punjabi": "ਯੂਰੀਆ",
+                                "marathi": "युरिया"
+                            },
+                            "perSessionDose": 38,
+                            "unit": {
+                                "english": "kg/acre",
+                                "hindi": "किलोग्राम/एकड़",
+                                "telugu": "కిలోగ్రాములు/ఎకర",
+                                "punjabi": "ਕਿਲੋਗਰਾਮ/ਏਕੜ",
+                                "marathi": "किलोग्राम/एकर"
+                            },
+                            "method": {
+                                "english": "Directly in the soil",
+                                "hindi": "सीधे मिट्टी में डालें",
+                                "telugu": "నేపథ్యంలో ప్రత్యక్షంగా",
+                                "punjabi": "ਸੀਧੇ ਮਿੱਟੀ ਵਿੱਚ ਡਾਲੋ",
+                                "marathi": "थेट मातीत"
+                            }
+                        },
+                        {
+                            "input": {
+                                "english": "Zinc Sulphate",
+                                "hindi": "जिंक सल्फेट",
+                                "telugu": "జింక్ సల్ఫేట్",
+                                "punjabi": "ਜਿਂਕ ਸਲਫੇਟ",
+                                "marathi": "झिंक सल्फेट"
+                            },
+                            "perSessionDose": "3",
+                            "unit": {
+                                "english": "gm/litre",
+                                "hindi": "ग्राम/लीटर",
+                                "telugu": "గ్రాములు/లిటరు",
+                                "punjabi": "ਗ੍ਰਾਮ/ਲੀਟਰ",
+                                "marathi": "ग्रॅम/लिटर"
+                            },
+                            "method": {
+                                "english": "Spray",
+                                "hindi": "स्प्रे",
+                                "telugu": "స్ప్రే",
+                                "punjabi": "ਸਪ੍ਰੇ",
+                                "marathi": "स्प्रे"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "order": 4,
+                    "orderName": {
+                        "english": "At Booting Stage(40-50 DAS)",
+                        "hindi": "बूटिंग चरण पर (बुवाई के 40-50 दिन बाद)",
+                        "telugu": "బూటింగ్ స్టేజ్ (40-50 రోజులు)",
+                        "punjabi": "ਬੂਟਿੰਗ ਸਟੇਜ (40-50 ਦਿਨ)",
+                        "marathi": "बूटिंग स्टेजवर (40-50 DAS)"
+                    },
+                    "prescription": [
+                        {
+                            "input": {
+                                "english": "MOP",
+                                "hindi": "एम.ओ.पी.",
+                                "telugu": "ఎం.ఓ.పి.",
+                                "punjabi": "ਐਮ.ਓ.ਪੀ.",
+                                "marathi": "एम.ओ.पी."
+                            },
+                            "perSessionDose": "10",
+                            "unit": {
+                                "english": "kg/acre",
+                                "hindi": "किलोग्राम/एकड़",
+                                "telugu": "కిలోగ్రాములు/ఎకర",
+                                "punjabi": "ਕਿਲੋਗਰਾਮ/ਏਕੜ",
+                                "marathi": "किलोग्राम/एकर"
+                            },
+                            "method": {
+                                "english": "Directly in the soil",
+                                "hindi": "सीधे मिट्टी में डालें",
+                                "telugu": "నేపథ్యంలో ప్రత్యక్షంగా",
+                                "punjabi": "ਸੀਧੇ ਮਿੱਟੀ ਵਿੱਚ ਡਾਲੋ",
+                                "marathi": "थेट मातीत"
+                            }
+                        },
+                        {
+                            "input": {
+                                "english": "Urea",
+                                "hindi": "यूरिया",
+                                "telugu": "యూరియా",
+                                "punjabi": "ਯੂਰੀਆ",
+                                "marathi": "युरिया"
+                            },
+                            "perSessionDose": 38,
+                            "unit": {
+                                "english": "kg/acre",
+                                "hindi": "किलोग्राम/एकड़",
+                                "telugu": "కిలోగ్రాములు/ఎకర",
+                                "punjabi": "ਕਿਲੋਗਰਾਮ/ਏਕੜ",
+                                "marathi": "किलोग्राम/एकर"
+                            },
+                            "method": {
+                                "english": "Directly in the soil",
+                                "hindi": "सीधे मिट्टी में डालें",
+                                "telugu": "నేపథ్యంలో ప్రత్యక్షంగా",
+                                "punjabi": "ਸੀਧੇ ਮਿੱਟੀ ਵਿੱਚ ਡਾਲੋ",
+                                "marathi": "थेट मातीत"
+                            }
+                        },
+                        {
+                            "input": {
+                                "english": "Zinc Sulphate",
+                                "hindi": "जिंक सल्फेट",
+                                "telugu": "జింక్ సల్ఫేట్",
+                                "punjabi": "ਜਿਂਕ ਸਲਫੇਟ",
+                                "marathi": "झिंक सल्फेट"
+                            },
+                            "perSessionDose": "3",
+                            "unit": {
+                                "english": "gm/litre",
+                                "hindi": "ग्राम/लीटर",
+                                "telugu": "గ్రాములు/లిటరు",
+                                "punjabi": "ਗ੍ਰਾਮ/ਲੀਟਰ",
+                                "marathi": "ग्रॅम/लिटर"
+                            },
+                            "method": {
+                                "english": "Spray",
+                                "hindi": "स्प्रे",
+                                "telugu": "స్ప్రే",
+                                "punjabi": "ਸਪ੍ਰੇ",
+                                "marathi": "स्प्रे"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "order": 5,
+                    "orderName": {
+                        "english": "At Flowering Stage(60-70 DAS)",
+                        "hindi": "फूलन चरण पर (बुवाई के 60-70 दिन बाद)",
+                        "telugu": "ఫ్లోరింగ్ స్టేజ్ (60-70 రోజులు)",
+                        "punjabi": "ਫੂਲਨ ਸਟੇਜ (60-70 ਦਿਨ)",
+                        "marathi": "फुलांच्या अवस्थेत (60-70 DAS)"
+                    },
+                    "prescription": [
+                        {
+                            "input": {
+                                "english": "Urea",
+                                "hindi": "यूरिया",
+                                "telugu": "యూరియా",
+                                "punjabi": "ਯੂਰੀਆ",
+                                "marathi": "युरिया"
+                            },
+                            "perSessionDose": "10",
+                            "unit": {
+                                "english": "gm/litre",
+                                "hindi": "ग्राम/लीटर",
+                                "telugu": "గ్రాములు/లిటరు",
+                                "punjabi": "ਗ੍ਰਾਮ/ਲੀਟਰ",
+                                "marathi": "ग्रॅम/लिटर"
+                            },
+                            "method": {
+                                "english": "Spray",
+                                "hindi": "स्प्रे",
+                                "telugu": "స్ప్రే",
+                                "punjabi": "ਸਪ੍ਰੇ",
+                                "marathi": "स्प्रे"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
