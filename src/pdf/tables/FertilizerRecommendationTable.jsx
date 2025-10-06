@@ -1,5 +1,6 @@
 import { View, Text, StyleSheet } from '@react-pdf/renderer';
 import { colors } from '../utils/theme';
+import { fertilizerRecommendationRows } from '../utils/data';
 
 const DEFAULT_COLS = [120, 200, 120, 200];
 const DEFAULT_COLUMNS = [
@@ -94,133 +95,7 @@ export default function FertilizerRecommendationTable({
   columnWidths = DEFAULT_COLS,
   rowsPerPage = 18
 }) {
-  const defaultRows = [
-    // Land preparation stage
-    { 
-      stage: 'Land preparation', 
-      input: 'Farm Yard Manure', 
-      dose: '750 kg/acre', 
-      method: 'Directly in the soil'
-    },
-    { 
-      input: '10:26:26', 
-      dose: '92 kg/acre', 
-      method: 'Directly in the soil'
-    },
-    { 
-      input: 'Urea', 
-      dose: '55 kg/acre', 
-      method: 'Directly in the soil'
-    },
-    { 
-      input: 'Bio Sanjeevni', 
-      dose: '1 kg/acre', 
-      method: 'Mix with FYM and apply in the soil'
-    },
-    { 
-      input: 'Zydx Mini Kit', 
-      dose: '8 kg/acre', 
-      method: 'Mix with FYM and apply in the soil'
-    },
-    // At the time of Planting
-    { 
-      stage: 'At the time of Planting', 
-      input: 'SOP', 
-      dose: '92 kg/acre', 
-      method: 'Directly in the soil'
-    },
-    { 
-      input: 'ICL Polysulphate', 
-      dose: '25 kg/acre', 
-      method: 'Directly in the soil'
-    },
-    // At Vegetative growth stage
-    { 
-      stage: 'At Vegetative growth stage (25-40 DAP)', 
-      input: 'Urea', 
-      dose: '55 kg/acre', 
-      method: 'Directly in the soil'
-    },
-    { 
-      input: 'CALSIL', 
-      dose: '50 kg/acre', 
-      method: 'Directly in the soil'
-    },
-    { 
-      input: 'Micronutrient mix', 
-      dose: '5 gm/litre', 
-      method: 'Spray from 35 to 60 days after planting, at 7-day intervals.'
-    },
-    // Tuber Bulking
-    { 
-      stage: 'Tuber Bulking (45-90 DAP)', 
-      input: 'Ammonium Sulphate', 
-      dose: '30 kg/acre', 
-      method: 'Directly in the soil'
-    },
-    { 
-      stage: 'Land preparation', 
-      input: 'Farm Yard Manure', 
-      dose: '750 kg/acre', 
-      method: 'Directly in the soil'
-    },
-    { 
-      input: '10:26:26', 
-      dose: '92 kg/acre', 
-      method: 'Directly in the soil'
-    },
-    { 
-      input: 'Urea', 
-      dose: '55 kg/acre', 
-      method: 'Directly in the soil'
-    },
-    { 
-      input: 'Bio Sanjeevni', 
-      dose: '1 kg/acre', 
-      method: 'Mix with FYM and apply in the soil'
-    },
-    { 
-      input: 'Zydx Mini Kit', 
-      dose: '8 kg/acre', 
-      method: 'Mix with FYM and apply in the soil'
-    },
-    // At the time of Planting
-    { 
-      stage: 'At the time of Planting', 
-      input: 'SOP', 
-      dose: '92 kg/acre', 
-      method: 'Directly in the soil'
-    },
-    { 
-      input: 'ICL Polysulphate', 
-      dose: '25 kg/acre', 
-      method: 'Directly in the soil'
-    },
-    // At Vegetative growth stage
-    { 
-      stage: 'At Vegetative growth stage (25-40 DAP)', 
-      input: 'Urea', 
-      dose: '55 kg/acre', 
-      method: 'Directly in the soil'
-    },
-    { 
-      input: 'CALSIL', 
-      dose: '50 kg/acre', 
-      method: 'Directly in the soil'
-    },
-    { 
-      input: 'Micronutrient mix', 
-      dose: '5 gm/litre', 
-      method: 'Spray from 35 to 60 days after planting, at 7-day intervals.'
-    },
-    // Tuber Bulking
-    { 
-      stage: 'Tuber Bulking (45-90 DAP)', 
-      input: 'Ammonium Sulphate', 
-      dose: '30 kg/acre', 
-      method: 'Directly in the soil'
-    }
-  ];
+  const defaultRows = fertilizerRecommendationRows;
 
   // Process the data - use provided rows or fall back to defaults
   const rawData = rows.length > 0 ? rows : defaultRows;

@@ -7,6 +7,7 @@ import DerivedParametersTable from './tables/DerivedParametersTable';
 import FertilizerRecommendationTable from './tables/FertilizerRecommendationTable';
 import DerivedInsightsTable from './tables/DerivedInsightsTable';
 import NutrientBalanceTable from './tables/NutrientBalanceTable';
+import { derivedParametersRows } from './utils/data';
 import CropTips from './tables/CropTips';
 import Disclaimer from './components/Disclaimer';
 import { colors, registerFonts } from './utils/theme';
@@ -100,12 +101,7 @@ export default function SoilReport({ logoUrl, title = "Soil Doctor", reportData 
         {/* Derived Parameters Table (Lines 91-101) */}
         <Text style={styles.sectionTitle}>DERIVED PARAMETERS</Text>
         <DataTable 
-          rows={[
-            { name: 'C:N Ratio', ideal: '10:1-12:1', actual: '13:1', assessment: 'High', statusColor: '#F59E0B' },
-            { name: 'CEC Tendency', ideal: 'Medium to High', actual: '-', assessment: 'Weak Holding', statusColor: '#EF4444' },
-            { name: 'Ca:Mg Ratio', ideal: '5:1-7:1', actual: '≈ 5:1', assessment: 'Upper Ideal', statusColor: '#F59E0B' },
-            { name: 'K:Mg Ratio', ideal: '0.5:1-0.7:1', actual: '≈ 0.57', assessment: 'Balanced', statusColor: '#22C55E' }
-          ]} 
+          rows={derivedParametersRows} 
           startingIndex={rows.length}
           showHeader={false}
         />
